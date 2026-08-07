@@ -1,123 +1,123 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,45:302b63,100:ff00cc&height=230&section=header&text=AMINE%20AMRAOUI&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20Developer%20%E2%80%A2%20Full-Stack%20Engineer%20%E2%80%A2%20Automation%20Builder&descAlignY=58&descSize=18" alt="Amine Amraoui banner" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/night-desk-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/night-desk-light.svg">
+  <img alt="Amine Amraoui — AI developer and full-stack engineer. A desk at night: rain on the window, a lamp burning low, code on the screen, a cat asleep on the wood." src="./assets/night-desk-dark.svg" width="100%">
+</picture>
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=FF4ECD&center=true&vCenter=true&width=760&lines=Building+intelligent+digital+products;Turning+business+problems+into+working+systems;AI+%7C+Computer+Vision+%7C+Web+%7C+Automation" alt="Typing introduction" />
-</a>
+<br>
 
-<br/>
-
-
+*Morocco → China · building things that see, decide, and stay out of the way*
 
 </div>
 
-> whoami
+<br>
 
-Name       Amine Amraoui
-Role       AI Developer & Full-Stack Engineer
-Focus      Intelligent business systems, computer vision and automation
-Location   China 🇨🇳  |  From Morocco 🇲🇦
-Mission    Build useful technology that solves real operational problems
+### ✦ &nbsp;now
 
-I design and develop AI-powered products, full-stack platforms, computer-vision systems and business automation tools. My work combines software engineering with practical problem-solving — from early concepts and prototypes to deployable products.
+I build AI-assisted business systems: the internal platform nobody outside the company ever sees, the camera that reads a plate, the dashboard someone actually opens on a Monday morning. Most of it is Django underneath — models, migrations, querysets, the seam where a form becomes a row in Postgres — with computer vision on one side and language models on the other.
 
-🧠 Building AI-assisted business platforms and internal tools
+Both ends are the same job, really. Take a messy input. Return something a person can trust.
 
-👁️ Developing computer-vision experiences with OpenCV and ML models
+I work between Arabic, English, French and Chinese, which turns out to be good training for software: most of the difficulty is translation, and most of the bugs are somebody assuming they were understood.
 
-⚙️ Automating workflows for sales, operations and e-commerce
+<br>
 
-🌍 Working across Arabic, English, French and Chinese environments
+### ✦ &nbsp;the workshop
 
-🚀 Always experimenting, shipping and improving
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/workshop-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/workshop-light.svg">
+  <img alt="Tools — backend: Python, Django, DRF, PostgreSQL, MySQL, Node.js. Vision and ML: OpenCV, TensorFlow, face_recognition, NumPy. Language models: Claude API, OpenAI API, prompt design. Front and mobile: TypeScript, React, Flutter, Dart, Bootstrap. The bench: Git, Docker, Linux, Cloudflare, Railway." src="./assets/workshop-dark.svg" width="100%">
+</picture>
 
-> technology_stack
+<br>
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=python,django,opencv,tensorflow,js,ts,react,nodejs,html,css&perline=10" alt="Primary technology stack" />
-  <br/>
-  <img src="https://skillicons.dev/icons?i=bootstrap,flutter,dart,postgres,mysql,docker,git,github,linux,cloudflare&perline=10" alt="Additional technology stack" />
-</div>
-
-> what_i_build
+### ✦ &nbsp;selected work
 
 <table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🤖 AI & Automation</h3>
-      <p>AI copilots, internal tools, workflow automation, business intelligence and intelligent operating systems.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>👁️ Computer Vision</h3>
-      <p>Face recognition, vehicle analysis, plate recognition, image segmentation and virtual try-on experiences.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🌐 Full-Stack Platforms</h3>
-      <p>Django applications, dashboards, e-commerce systems, multilingual websites and administrative platforms.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>📱 Mobile Products</h3>
-      <p>Flutter applications with offline storage, clean interfaces and practical everyday functionality.</p>
-    </td>
-  </tr>
+<tr>
+<td width="50%" valign="top">
+
+#### Face Recognition Attendance
+
+Attendance that takes itself. Students are enrolled once — the system captures and encodes their face — and from then on a webcam handles check-in and check-out, writing timestamped rows organised by department and class.
+
+<sub>Django · OpenCV · face_recognition · NumPy</sub>
+
+</td>
+<td width="50%" valign="top">
+
+#### Vehicle Speed & Plate Recognition
+
+Reading a road from video: tracking vehicles across frames to estimate speed, and pulling the plate out of a moving, badly-lit, rarely-cooperative image.
+
+<sub>Python · OpenCV · TensorFlow</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### AI-Powered Enterprise Operating System
+
+The system a company runs its day on — orders, stock, staff, reporting — with an AI assistant sitting inside it that can answer questions about the business instead of just about the manual.
+
+<sub>Django · PostgreSQL · LLM APIs</sub>
+
+</td>
+<td width="50%" valign="top">
+
+#### Virtual Hair Colour Try-On
+
+Segment the hair, keep the highlights, change the colour — and have it still look like hair rather than a paint bucket. Vision work where the bar is set by the human eye.
+
+<sub>Python · OpenCV · image segmentation</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### Multilingual E-Commerce Platform
+
+A storefront built the boring, durable way: catalogue, media, orders, and translations that hold up across languages — plus an admin the client can actually run without me.
+
+<sub>Django · PostgreSQL · i18n</sub>
+
+</td>
+<td width="50%" valign="top">
+
+#### Offline Recipe Keeper
+
+A Flutter app that works on a train with no signal. Local storage, a clean interface, and nothing that phones home to be useful.
+
+<sub>Flutter · Dart · local storage</sub>
+
+</td>
+</tr>
 </table>
 
-> selected_work
+<sub>Some commercial and client work is maintained privately. If something here is close to what you're building, ask me — I'm happy to walk you through it.</sub>
 
-01  Face Recognition Attendance System
-02  Vehicle Speed & Plate Recognition Platform
-03  AI-Powered Enterprise Operating System
-04  Virtual Hair Color Try-On Experience
-05  Premium Multilingual E-Commerce Platform
-06  Offline Flutter Recipe Keeper
+<br>
 
-Some commercial and client projects are maintained privately.
+<details>
+<summary><b>☕ &nbsp;what's actually in the mug</b></summary>
 
-> github_analytics
+<br>
 
-<div align="center">
-  <img height="175" src="https://github-readme-stats.vercel.app/api?username=angorot89&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=FF4ECD&icon_color=8B5CF6&text_color=C9D1D9" alt="Amine's GitHub statistics" />
-  <img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=angorot89&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=FF4ECD&text_color=C9D1D9" alt="Amine's most used languages" />
-</div>
+Nous-nous, when I can get it. I'm a long way from the café that makes it properly, so most nights it's whatever's closest — and it goes cold anyway, about twenty minutes into a bug.
 
-<div align="center">
-  <img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=angorot89&theme=tokyonight&hide_border=true&background=0D1117&ring=FF4ECD&fire=8B5CF6&currStreakLabel=FF4ECD" alt="Amine's GitHub contribution streak" />
-</div>
+The illustration at the top of this page is hand-written SVG — every rain streak, every bulb on that string, the lamp's flicker, the cat's slow breathing. No image files, no animation library, about a thousand lines of geometry. It rains up there whether or not anyone is watching.
 
-> current_mode
+</details>
 
-class Amine:
-    def __init__(self):
-        self.role = "AI Developer & Full-Stack Engineer"
-        self.building = ["AI products", "business systems", "automation"]
-        self.mindset = "Learn fast. Build smart. Ship useful things."
+<br>
 
-    def run(self):
-        while True:
-            self.learn()
-            self.build()
-            self.improve()
+### ✦ &nbsp;elsewhere
 
-> connect
+<a href="https://github.com/angorot89?tab=repositories"><b>My repositories →</b></a>
 
-<div align="center">
-  <a href="https://github.com/angorot89">
-    <img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" />
-  </a>
-  <a href="https://github.com/angorot89?tab=repositories">
-    <img src="https://img.shields.io/badge/Explore_My_Projects-8B5CF6?style=for-the-badge&logo=github&logoColor=white" alt="Explore projects" />
-  </a>
-</div>
-
-<div align="center">
-
-SYSTEM STATUS: ONLINE
-
-Open to building ambitious products, collaborating on useful ideas and solving difficult problems.
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:ff00cc,55:302b63,100:0f0c29&height=120&section=footer" alt="Footer" />
-
-</div>
+<sub>Learn fast. Build smart. Ship useful things. Open to ambitious products and difficult problems — the lamp's on.</sub>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 272" width="1000" height="272" role="img" aria-labelledby="wt wd">
+  <title id="wt">The workshop</title>
+  <desc id="wd">Tools Amine works with, grouped by backend, vision, language models, and general bench tools.</desc>
+  <defs>
+    <linearGradient id="wg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#13100C"/><stop offset="100%" stop-color="#221A13"/>
+    </linearGradient>
+    <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#9C8468" opacity="0.16"/>
+    </pattern>
+  </defs>
+  <style>
+    .chip { fill: #00000033; stroke: #9C846855; stroke-width: 1; }
+    .lbl  { font-family: ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace; font-size: 13px; fill: #F3E6D2; }
+    .grp  { font-family: ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace; font-size: 11px;
+            fill: #9C8468; letter-spacing: 2.2px; text-transform: uppercase; }
+  </style>
+
+  <rect width="1000" height="272" rx="10" fill="url(#wg)"/>
+  <rect width="1000" height="272" rx="10" fill="url(#dots)"/>
+  <rect x="0.5" y="0.5" width="999" height="271" rx="10" fill="none" stroke="#9C846855" stroke-width="1"/>
+
+  <text class="grp" x="34" y="60">backend</text>
+  <rect x="34" y="44" width="2.5" height="22" rx="1.25" fill="#EBA85A" opacity="0.0"/>
+  <rect class="chip" x="214" y="40" width="72" height="30" rx="15"/><text class="lbl" x="227" y="60">Python</text>
+  <rect class="chip" x="296" y="40" width="72" height="30" rx="15"/><text class="lbl" x="309" y="60">Django</text>
+  <rect class="chip" x="378" y="40" width="49" height="30" rx="15"/><text class="lbl" x="391" y="60">DRF</text>
+  <rect class="chip" x="437" y="40" width="102" height="30" rx="15"/><text class="lbl" x="450" y="60">PostgreSQL</text>
+  <rect class="chip" x="549" y="40" width="64" height="30" rx="15"/><text class="lbl" x="562" y="60">MySQL</text>
+  <rect class="chip" x="623" y="40" width="79" height="30" rx="15"/><text class="lbl" x="636" y="60">Node.js</text>
+  <text class="grp" x="34" y="102">vision &amp; ml</text>
+  <rect x="34" y="86" width="2.5" height="22" rx="1.25" fill="#EBA85A" opacity="0.0"/>
+  <rect class="chip" x="214" y="82" width="72" height="30" rx="15"/><text class="lbl" x="227" y="102">OpenCV</text>
+  <rect class="chip" x="296" y="82" width="102" height="30" rx="15"/><text class="lbl" x="309" y="102">TensorFlow</text>
+  <rect class="chip" x="408" y="82" width="148" height="30" rx="15"/><text class="lbl" x="421" y="102">face_recognition</text>
+  <rect class="chip" x="566" y="82" width="64" height="30" rx="15"/><text class="lbl" x="579" y="102">NumPy</text>
+  <text class="grp" x="34" y="144">language models</text>
+  <rect x="34" y="128" width="2.5" height="22" rx="1.25" fill="#EBA85A" opacity="0.0"/>
+  <rect class="chip" x="214" y="124" width="102" height="30" rx="15"/><text class="lbl" x="227" y="144">Claude API</text>
+  <rect class="chip" x="326" y="124" width="102" height="30" rx="15"/><text class="lbl" x="339" y="144">OpenAI API</text>
+  <rect class="chip" x="438" y="124" width="125" height="30" rx="15"/><text class="lbl" x="451" y="144">prompt design</text>
+  <text class="grp" x="34" y="186">front &amp; mobile</text>
+  <rect x="34" y="170" width="2.5" height="22" rx="1.25" fill="#EBA85A" opacity="0.0"/>
+  <rect class="chip" x="214" y="166" width="102" height="30" rx="15"/><text class="lbl" x="227" y="186">TypeScript</text>
+  <rect class="chip" x="326" y="166" width="64" height="30" rx="15"/><text class="lbl" x="339" y="186">React</text>
+  <rect class="chip" x="400" y="166" width="79" height="30" rx="15"/><text class="lbl" x="413" y="186">Flutter</text>
+  <rect class="chip" x="489" y="166" width="56" height="30" rx="15"/><text class="lbl" x="502" y="186">Dart</text>
+  <rect class="chip" x="555" y="166" width="94" height="30" rx="15"/><text class="lbl" x="568" y="186">Bootstrap</text>
+  <text class="grp" x="34" y="228">the bench</text>
+  <rect x="34" y="212" width="2.5" height="22" rx="1.25" fill="#EBA85A" opacity="0.0"/>
+  <rect class="chip" x="214" y="208" width="49" height="30" rx="15"/><text class="lbl" x="227" y="228">Git</text>
+  <rect class="chip" x="273" y="208" width="72" height="30" rx="15"/><text class="lbl" x="286" y="228">Docker</text>
+  <rect class="chip" x="355" y="208" width="64" height="30" rx="15"/><text class="lbl" x="368" y="228">Linux</text>
+  <rect class="chip" x="429" y="208" width="102" height="30" rx="15"/><text class="lbl" x="442" y="228">Cloudflare</text>
+  <rect class="chip" x="541" y="208" width="79" height="30" rx="15"/><text class="lbl" x="554" y="228">Railway</text>
+</svg>
