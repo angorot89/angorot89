@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 760" width="1000" height="760" role="img" aria-label="Vehicle Speed &amp; Plate Recognition (VISION): Tracks vehicles across frames to estimate speed, then pulls the plate from a moving, badly-lit image. Most of the work is the frames where it shouldn't fire. Built with Python · OpenCV · TensorFlow. AI-Powered Enterprise OS (PLATFORM): Orders, stock, staff, reporting — the system a company runs its day on, with an assistant inside that answers questions about the business, not about the manual. Built with Django · PostgreSQL · LLM APIs. Face Recognition Attendance (VISION): Students enrol once; the system encodes their face. A webcam then handles check-in and check-out, writing timestamped rows by department and class. Built with Django · OpenCV · face_recognition · NumPy. Virtual Hair Colour Try-On (VISION): Segment the hair, keep the highlights, change the colour — and have it still look like hair. Vision work where the acceptance test is the human eye. Built with Python · OpenCV · image segmentation. Multilingual E-Commerce Platform (PLATFORM): Catalogue, media, orders, and translations that hold up across languages — plus an admin the client can actually run without me. Built with Django · PostgreSQL · i18n. Offline Recipe Keeper (MOBILE): A Flutter app that works on a train with no signal. Local storage, a clean interface, nothing that phones home to be useful. Built with Flutter · Dart · local storage.">
+  <g>
+    <rect x="0" y="0" width="486" height="236" rx="3" fill="#0B1020"/>
+    <rect x="0" y="0" width="486" height="236" rx="3" fill="#2BE0FF" opacity="0.10"/>
+    <rect x="0" y="0" width="486" height="236" rx="3" fill="none" stroke="#2BE0FF" stroke-width="1" opacity="0.45"/>
+    <rect x="0" y="0" width="4" height="236" rx="2" fill="#2BE0FF"/>
+    <path d="M14 1 L1 1 L1 14" fill="none" stroke="#2BE0FF" stroke-width="2"/>
+    <path d="M472 235 L485 235 L485 222" fill="none" stroke="#2BE0FF" stroke-width="2"/>
+
+    <rect x="24" y="22" width="64" height="20" rx="2" fill="#2BE0FF"/>
+    <text x="34" y="36" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="700"
+          fill="#05070D" letter-spacing="1.6">VISION</text>
+    <text x="462" y="37" text-anchor="end" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13"
+          fill="#2BE0FF" opacity="0.55" letter-spacing="1.2">01</text>
+
+    <text x="24" y="76" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" font-weight="700"
+          fill="#EAF2FF" letter-spacing="0.1">Vehicle Speed &amp; Plate Recognition</text>
+
+    <text x="24" y="108" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" fill="#8798B3">
+      <tspan x="24" dy="0">Tracks vehicles across frames to estimate speed, then</tspan>
+      <tspan x="24" dy="21">pulls the plate from a moving, badly-lit image. Most of</tspan>
+      <tspan x="24" dy="21">the work is the frames where it shouldn't fire.</tspan>
+    </text>
+
+    <line x1="24" y1="192" x2="462" y2="192" stroke="#20334D" stroke-width="1"/>
+    <text x="24" y="214" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#2BE0FF"
+          opacity="0.95" letter-spacing="0.4">Python · OpenCV · TensorFlow</text>
+  </g>
+  <g>
+    <rect x="514" y="0" width="486" height="236" rx="3" fill="#0B1020"/>
+    <rect x="514" y="0" width="486" height="236" rx="3" fill="#FF3DCB" opacity="0.10"/>
+    <rect x="514" y="0" width="486" height="236" rx="3" fill="none" stroke="#FF3DCB" stroke-width="1" opacity="0.45"/>
+    <rect x="514" y="0" width="4" height="236" rx="2" fill="#FF3DCB"/>
+    <path d="M528 1 L515 1 L515 14" fill="none" stroke="#FF3DCB" stroke-width="2"/>
+    <path d="M986 235 L999 235 L999 222" fill="none" stroke="#FF3DCB" stroke-width="2"/>
+
+    <rect x="538" y="22" width="78" height="20" rx="2" fill="#FF3DCB"/>
+    <text x="548" y="36" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="700"
+          fill="#05070D" letter-spacing="1.6">PLATFORM</text>
+    <text x="976" y="37" text-anchor="end" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13"
+          fill="#FF3DCB" opacity="0.55" letter-spacing="1.2">02</text>
+
+    <text x="538" y="76" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" font-weight="700"
+          fill="#EAF2FF" letter-spacing="0.1">AI-Powered Enterprise OS</text>
+
+    <text x="538" y="108" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" fill="#8798B3">
+      <tspan x="538" dy="0">Orders, stock, staff, reporting — the system a company</tspan>
+      <tspan x="538" dy="21">runs its day on, with an assistant inside that answers</tspan>
+      <tspan x="538" dy="21">questions about the business, not about the manual.</tspan>
+    </text>
+
+    <line x1="538" y1="192" x2="976" y2="192" stroke="#20334D" stroke-width="1"/>
+    <text x="538" y="214" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#FF3DCB"
+          opacity="0.95" letter-spacing="0.4">Django · PostgreSQL · LLM APIs</text>
+  </g>
+  <g>
+    <rect x="0" y="262" width="486" height="236" rx="3" fill="#0B1020"/>
+    <rect x="0" y="262" width="486" height="236" rx="3" fill="#2BE0FF" opacity="0.10"/>
+    <rect x="0" y="262" width="486" height="236" rx="3" fill="none" stroke="#2BE0FF" stroke-width="1" opacity="0.45"/>
+    <rect x="0" y="262" width="4" height="236" rx="2" fill="#2BE0FF"/>
+    <path d="M14 263 L1 263 L1 276" fill="none" stroke="#2BE0FF" stroke-width="2"/>
+    <path d="M472 497 L485 497 L485 484" fill="none" stroke="#2BE0FF" stroke-width="2"/>
+
+    <rect x="24" y="284" width="64" height="20" rx="2" fill="#2BE0FF"/>
+    <text x="34" y="298" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="700"
+          fill="#05070D" letter-spacing="1.6">VISION</text>
+    <text x="462" y="299" text-anchor="end" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13"
+          fill="#2BE0FF" opacity="0.55" letter-spacing="1.2">03</text>
+
+    <text x="24" y="338" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" font-weight="700"
+          fill="#EAF2FF" letter-spacing="0.1">Face Recognition Attendance</text>
+
+    <text x="24" y="370" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" fill="#8798B3">
+      <tspan x="24" dy="0">Students enrol once; the system encodes their face. A</tspan>
+      <tspan x="24" dy="21">webcam then handles check-in and check-out, writing</tspan>
+      <tspan x="24" dy="21">timestamped rows by department and class.</tspan>
+    </text>
+
+    <line x1="24" y1="454" x2="462" y2="454" stroke="#20334D" stroke-width="1"/>
+    <text x="24" y="476" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#2BE0FF"
+          opacity="0.95" letter-spacing="0.4">Django · OpenCV · face_recognition · NumPy</text>
+  </g>
+  <g>
+    <rect x="514" y="262" width="486" height="236" rx="3" fill="#0B1020"/>
+    <rect x="514" y="262" width="486" height="236" rx="3" fill="#2BE0FF" opacity="0.10"/>
+    <rect x="514" y="262" width="486" height="236" rx="3" fill="none" stroke="#2BE0FF" stroke-width="1" opacity="0.45"/>
+    <rect x="514" y="262" width="4" height="236" rx="2" fill="#2BE0FF"/>
+    <path d="M528 263 L515 263 L515 276" fill="none" stroke="#2BE0FF" stroke-width="2"/>
+    <path d="M986 497 L999 497 L999 484" fill="none" stroke="#2BE0FF" stroke-width="2"/>
+
+    <rect x="538" y="284" width="64" height="20" rx="2" fill="#2BE0FF"/>
+    <text x="548" y="298" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="700"
+          fill="#05070D" letter-spacing="1.6">VISION</text>
+    <text x="976" y="299" text-anchor="end" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13"
+          fill="#2BE0FF" opacity="0.55" letter-spacing="1.2">04</text>
+
+    <text x="538" y="338" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" font-weight="700"
+          fill="#EAF2FF" letter-spacing="0.1">Virtual Hair Colour Try-On</text>
+
+    <text x="538" y="370" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" fill="#8798B3">
+      <tspan x="538" dy="0">Segment the hair, keep the highlights, change the</tspan>
+      <tspan x="538" dy="21">colour — and have it still look like hair. Vision work</tspan>
+      <tspan x="538" dy="21">where the acceptance test is the human eye.</tspan>
+    </text>
+
+    <line x1="538" y1="454" x2="976" y2="454" stroke="#20334D" stroke-width="1"/>
+    <text x="538" y="476" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#2BE0FF"
+          opacity="0.95" letter-spacing="0.4">Python · OpenCV · image segmentation</text>
+  </g>
+  <g>
+    <rect x="0" y="524" width="486" height="236" rx="3" fill="#0B1020"/>
+    <rect x="0" y="524" width="486" height="236" rx="3" fill="#FF3DCB" opacity="0.10"/>
+    <rect x="0" y="524" width="486" height="236" rx="3" fill="none" stroke="#FF3DCB" stroke-width="1" opacity="0.45"/>
+    <rect x="0" y="524" width="4" height="236" rx="2" fill="#FF3DCB"/>
+    <path d="M14 525 L1 525 L1 538" fill="none" stroke="#FF3DCB" stroke-width="2"/>
+    <path d="M472 759 L485 759 L485 746" fill="none" stroke="#FF3DCB" stroke-width="2"/>
+
+    <rect x="24" y="546" width="78" height="20" rx="2" fill="#FF3DCB"/>
+    <text x="34" y="560" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="700"
+          fill="#05070D" letter-spacing="1.6">PLATFORM</text>
+    <text x="462" y="561" text-anchor="end" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13"
+          fill="#FF3DCB" opacity="0.55" letter-spacing="1.2">05</text>
+
+    <text x="24" y="600" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" font-weight="700"
+          fill="#EAF2FF" letter-spacing="0.1">Multilingual E-Commerce Platform</text>
+
+    <text x="24" y="632" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" fill="#8798B3">
+      <tspan x="24" dy="0">Catalogue, media, orders, and translations that hold up</tspan>
+      <tspan x="24" dy="21">across languages — plus an admin the client can</tspan>
+      <tspan x="24" dy="21">actually run without me.</tspan>
+    </text>
+
+    <line x1="24" y1="716" x2="462" y2="716" stroke="#20334D" stroke-width="1"/>
+    <text x="24" y="738" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#FF3DCB"
+          opacity="0.95" letter-spacing="0.4">Django · PostgreSQL · i18n</text>
+  </g>
+  <g>
+    <rect x="514" y="524" width="486" height="236" rx="3" fill="#0B1020"/>
+    <rect x="514" y="524" width="486" height="236" rx="3" fill="#3BE8A6" opacity="0.10"/>
+    <rect x="514" y="524" width="486" height="236" rx="3" fill="none" stroke="#3BE8A6" stroke-width="1" opacity="0.45"/>
+    <rect x="514" y="524" width="4" height="236" rx="2" fill="#3BE8A6"/>
+    <path d="M528 525 L515 525 L515 538" fill="none" stroke="#3BE8A6" stroke-width="2"/>
+    <path d="M986 759 L999 759 L999 746" fill="none" stroke="#3BE8A6" stroke-width="2"/>
+
+    <rect x="538" y="546" width="64" height="20" rx="2" fill="#3BE8A6"/>
+    <text x="548" y="560" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="700"
+          fill="#05070D" letter-spacing="1.6">MOBILE</text>
+    <text x="976" y="561" text-anchor="end" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13"
+          fill="#3BE8A6" opacity="0.55" letter-spacing="1.2">06</text>
+
+    <text x="538" y="600" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" font-weight="700"
+          fill="#EAF2FF" letter-spacing="0.1">Offline Recipe Keeper</text>
+
+    <text x="538" y="632" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" fill="#8798B3">
+      <tspan x="538" dy="0">A Flutter app that works on a train with no signal.</tspan>
+      <tspan x="538" dy="21">Local storage, a clean interface, nothing that phones</tspan>
+      <tspan x="538" dy="21">home to be useful.</tspan>
+    </text>
+
+    <line x1="538" y1="716" x2="976" y2="716" stroke="#20334D" stroke-width="1"/>
+    <text x="538" y="738" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#3BE8A6"
+          opacity="0.95" letter-spacing="0.4">Flutter · Dart · local storage</text>
+  </g>
+</svg>

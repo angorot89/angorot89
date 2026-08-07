@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 132" width="1000" height="132" role="img" aria-label="AI SYSTEMS: assistants that answer about the business · COMPUTER VISION: cameras that read what they are shown · PLATFORMS: the system a company runs its day on">
+  <g>
+    <rect x="0" y="0" width="317" height="132" rx="3" fill="#0B1020"/>
+    <rect x="0" y="0" width="317" height="132" rx="3" fill="#A97BFF" opacity="0.10"/>
+    <rect x="0" y="0" width="317" height="132" rx="3" fill="none" stroke="#A97BFF" stroke-width="1" opacity="0.45"/>
+    <rect x="0" y="0" width="317" height="3" rx="1.5" fill="#A97BFF"/>
+    <g stroke="#A97BFF" stroke-width="2" fill="none"><line x1="31.0" y1="61" x2="44.0" y2="41"/><line x1="57.0" y1="61" x2="44.0" y2="41"/><line x1="31.0" y1="61" x2="57.0" y2="61"/></g><circle cx="44.0" cy="41" r="4.5" fill="#A97BFF"/><circle cx="31.0" cy="61" r="4.5" fill="#A97BFF"/><circle cx="57.0" cy="61" r="4.5" fill="#A97BFF"/>
+    <text x="80" y="50" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700"
+          fill="#EAF2FF" letter-spacing="1.8">AI SYSTEMS</text>
+    <text x="80" y="76" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#8798B3">assistants that answer</text>
+    <text x="80" y="96" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#8798B3">about the business</text>
+  </g>
+  <g>
+    <rect x="341" y="0" width="317" height="132" rx="3" fill="#0B1020"/>
+    <rect x="341" y="0" width="317" height="132" rx="3" fill="#2BE0FF" opacity="0.10"/>
+    <rect x="341" y="0" width="317" height="132" rx="3" fill="none" stroke="#2BE0FF" stroke-width="1" opacity="0.45"/>
+    <rect x="341" y="0" width="317" height="3" rx="1.5" fill="#2BE0FF"/>
+    <path d="M369.3333333333333 52 q16 -13 32 0 q-16 13 -32 0z" fill="none" stroke="#2BE0FF" stroke-width="2"/><circle cx="385.3333333333333" cy="52" r="5" fill="#2BE0FF"/><g stroke="#2BE0FF" stroke-width="1.6" opacity="0.7"><line x1="385.3333333333333" y1="36" x2="385.3333333333333" y2="41"/><line x1="385.3333333333333" y1="63" x2="385.3333333333333" y2="68"/></g>
+    <text x="421" y="50" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700"
+          fill="#EAF2FF" letter-spacing="1.8">COMPUTER VISION</text>
+    <text x="421" y="76" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#8798B3">cameras that read</text>
+    <text x="421" y="96" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#8798B3">what they are shown</text>
+  </g>
+  <g>
+    <rect x="683" y="0" width="317" height="132" rx="3" fill="#0B1020"/>
+    <rect x="683" y="0" width="317" height="132" rx="3" fill="#FF3DCB" opacity="0.10"/>
+    <rect x="683" y="0" width="317" height="132" rx="3" fill="none" stroke="#FF3DCB" stroke-width="1" opacity="0.45"/>
+    <rect x="683" y="0" width="317" height="3" rx="1.5" fill="#FF3DCB"/>
+    <g fill="#FF3DCB"><rect x="710.6666666666666" y="38" width="32" height="7" rx="1.5"/><rect x="710.6666666666666" y="49" width="32" height="7" rx="1.5" opacity="0.7"/><rect x="710.6666666666666" y="60" width="32" height="7" rx="1.5" opacity="0.42"/></g>
+    <text x="763" y="50" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700"
+          fill="#EAF2FF" letter-spacing="1.8">PLATFORMS</text>
+    <text x="763" y="76" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#8798B3">the system a company</text>
+    <text x="763" y="96" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" fill="#8798B3">runs its day on</text>
+  </g>
+</svg>

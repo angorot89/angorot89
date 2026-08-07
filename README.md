@@ -14,17 +14,31 @@
 
 <br>
 
-### ▸ &nbsp;now
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/sec-now-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/sec-now-light.svg">
+  <img alt="Now" src="./assets/sec-now-dark.svg" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/caps-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/caps-light.svg">
+  <img alt="AI systems — assistants that answer about the business. Computer vision — cameras that read what they are shown. Platforms — the system a company runs its day on." src="./assets/caps-dark.svg" width="100%">
+</picture>
 
 I build AI-assisted business systems: the internal platform nobody outside the company ever sees, the camera that reads a plate at speed, the dashboard someone actually opens on a Monday morning. Django underneath, computer vision on one side, language models on the other.
 
 Both ends are the same problem. Take a messy input — a blurred frame, a half-finished sentence, a form filled in wrong — and return something a person can act on without checking it twice.
 
-I work across Arabic, English, French and Chinese, which is decent training for the job: most of the difficulty is translation, and most of the bugs are somebody assuming they were understood.
+> I work across Arabic, English, French and Chinese, which is decent training for the job: most of the difficulty is translation, and most of the bugs are somebody assuming they were understood.
 
 <br>
 
-### ▸ &nbsp;stack
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/sec-stack-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/sec-stack-light.svg">
+  <img alt="Stack" src="./assets/sec-stack-dark.svg" width="100%">
+</picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg">
@@ -34,70 +48,17 @@ I work across Arabic, English, French and Chinese, which is decent training for 
 
 <br>
 
-### ▸ &nbsp;detections
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/sec-detections-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/sec-detections-light.svg">
+  <img alt="Detections — selected projects" src="./assets/sec-detections-dark.svg" width="100%">
+</picture>
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-#### Vehicle Speed &amp; Plate Recognition
-
-Reading a road from video: tracking vehicles across frames to estimate speed, then pulling the plate out of a moving, badly-lit, rarely-cooperative image. Most of the work is the frames where it *shouldn't* fire.
-
-<sub>`0.97` &nbsp; Python · OpenCV · TensorFlow</sub>
-
-</td>
-<td width="50%" valign="top">
-
-#### AI-Powered Enterprise OS
-
-The system a company runs its day on — orders, stock, staff, reporting — with an assistant living inside it that answers questions about the business rather than about the manual.
-
-<sub>`0.96` &nbsp; Django · PostgreSQL · LLM APIs</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### Face Recognition Attendance
-
-Attendance that takes itself. Students enrol once, the system encodes their face, and from then on a webcam handles check-in and check-out — timestamped rows, organised by department and class.
-
-<sub>`0.95` &nbsp; Django · OpenCV · face_recognition · NumPy</sub>
-
-</td>
-<td width="50%" valign="top">
-
-#### Virtual Hair Colour Try-On
-
-Segment the hair, keep the highlights, change the colour — and have it still look like hair rather than a paint bucket. Vision work where the acceptance test is the human eye.
-
-<sub>`0.93` &nbsp; Python · OpenCV · image segmentation</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### Multilingual E-Commerce Platform
-
-Catalogue, media, orders, and translations that hold up across languages — plus an admin the client can actually run without me.
-
-<sub>`0.92` &nbsp; Django · PostgreSQL · i18n</sub>
-
-</td>
-<td width="50%" valign="top">
-
-#### Offline Recipe Keeper
-
-A Flutter app that works on a train with no signal. Local storage, a clean interface, nothing that phones home to be useful.
-
-<sub>`0.90` &nbsp; Flutter · Dart · local storage</sub>
-
-</td>
-</tr>
-</table>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cards-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/cards-light.svg">
+  <img alt="Six projects. 01 Vehicle Speed and Plate Recognition (vision) — tracks vehicles across frames to estimate speed, then pulls the plate from a moving, badly-lit image; Python, OpenCV, TensorFlow. 02 AI-Powered Enterprise OS (platform) — orders, stock, staff, reporting, with an assistant inside that answers questions about the business; Django, PostgreSQL, LLM APIs. 03 Face Recognition Attendance (vision) — students enrol once, a webcam then handles check-in and check-out; Django, OpenCV, face_recognition, NumPy. 04 Virtual Hair Colour Try-On (vision) — segment the hair, keep the highlights, change the colour; Python, OpenCV, image segmentation. 05 Multilingual E-Commerce Platform (platform) — catalogue, media, orders and translations across languages; Django, PostgreSQL, i18n. 06 Offline Recipe Keeper (mobile) — a Flutter app that works with no signal; Flutter, Dart, local storage." src="./assets/cards-dark.svg" width="100%">
+</picture>
 
 <sub>Some commercial and client work is maintained privately. If something here is close to what you're building, ask — I'm happy to walk you through it.</sub>
 
@@ -122,7 +83,11 @@ The banner at the top is hand-written SVG — the bounding box, the scanline, th
 
 <br>
 
-### ▸ &nbsp;contact
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/sec-contact-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/sec-contact-light.svg">
+  <img alt="Contact" src="./assets/sec-contact-dark.svg" width="100%">
+</picture>
 
 <a href="https://github.com/angorot89?tab=repositories"><b>Repositories →</b></a>
 
