@@ -1,79 +1,79 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/night-desk-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/night-desk-light.svg">
-  <img alt="Amine Amraoui — AI developer and full-stack engineer. A desk at night: rain on the window, a lamp burning low, code on the screen, a cat asleep on the wood." src="./assets/night-desk-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hud-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/hud-light.svg">
+  <img alt="Amine Amraoui — AI developer and full-stack engineer. A computer-vision inference frame: a bounding box labelled 'person 0.994' locks onto the name, with instrumentation readouts and a sweeping scanline." src="./assets/hud-dark.svg" width="100%">
 </picture>
 
 <br>
 
-*Morocco → China · building things that see, decide, and stay out of the way*
+**AI systems · computer vision · full-stack platforms**
 
 </div>
 
 <br>
 
-### ✦ &nbsp;now
+### ▸ &nbsp;now
 
-I build AI-assisted business systems: the internal platform nobody outside the company ever sees, the camera that reads a plate, the dashboard someone actually opens on a Monday morning. Most of it is Django underneath — models, migrations, querysets, the seam where a form becomes a row in Postgres — with computer vision on one side and language models on the other.
+I build AI-assisted business systems: the internal platform nobody outside the company ever sees, the camera that reads a plate at speed, the dashboard someone actually opens on a Monday morning. Django underneath, computer vision on one side, language models on the other.
 
-Both ends are the same job, really. Take a messy input. Return something a person can trust.
+Both ends are the same problem. Take a messy input — a blurred frame, a half-finished sentence, a form filled in wrong — and return something a person can act on without checking it twice.
 
-I work between Arabic, English, French and Chinese, which turns out to be good training for software: most of the difficulty is translation, and most of the bugs are somebody assuming they were understood.
+I work across Arabic, English, French and Chinese, which is decent training for the job: most of the difficulty is translation, and most of the bugs are somebody assuming they were understood.
 
 <br>
 
-### ✦ &nbsp;the workshop
+### ▸ &nbsp;stack
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/workshop-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/workshop-light.svg">
-  <img alt="Tools — backend: Python, Django, DRF, PostgreSQL, MySQL, Node.js. Vision and ML: OpenCV, TensorFlow, face_recognition, NumPy. Language models: Claude API, OpenAI API, prompt design. Front and mobile: TypeScript, React, Flutter, Dart, Bootstrap. The bench: Git, Docker, Linux, Cloudflare, Railway." src="./assets/workshop-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/stack-light.svg">
+  <img alt="Stack — backend: Python, Django, DRF, PostgreSQL, MySQL, Node.js. Vision and ML: OpenCV, TensorFlow, face_recognition, NumPy. Language models: Claude API, OpenAI API, prompt design. Front and mobile: TypeScript, React, Flutter, Dart, Bootstrap. The bench: Git, Docker, Linux, Cloudflare, Railway." src="./assets/stack-dark.svg" width="100%">
 </picture>
 
 <br>
 
-### ✦ &nbsp;selected work
+### ▸ &nbsp;detections
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-#### Face Recognition Attendance
+#### Vehicle Speed &amp; Plate Recognition
 
-Attendance that takes itself. Students are enrolled once — the system captures and encodes their face — and from then on a webcam handles check-in and check-out, writing timestamped rows organised by department and class.
+Reading a road from video: tracking vehicles across frames to estimate speed, then pulling the plate out of a moving, badly-lit, rarely-cooperative image. Most of the work is the frames where it *shouldn't* fire.
 
-<sub>Django · OpenCV · face_recognition · NumPy</sub>
+<sub>`0.97` &nbsp; Python · OpenCV · TensorFlow</sub>
 
 </td>
 <td width="50%" valign="top">
 
-#### Vehicle Speed & Plate Recognition
+#### AI-Powered Enterprise OS
 
-Reading a road from video: tracking vehicles across frames to estimate speed, and pulling the plate out of a moving, badly-lit, rarely-cooperative image.
+The system a company runs its day on — orders, stock, staff, reporting — with an assistant living inside it that answers questions about the business rather than about the manual.
 
-<sub>Python · OpenCV · TensorFlow</sub>
+<sub>`0.96` &nbsp; Django · PostgreSQL · LLM APIs</sub>
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-#### AI-Powered Enterprise Operating System
+#### Face Recognition Attendance
 
-The system a company runs its day on — orders, stock, staff, reporting — with an AI assistant sitting inside it that can answer questions about the business instead of just about the manual.
+Attendance that takes itself. Students enrol once, the system encodes their face, and from then on a webcam handles check-in and check-out — timestamped rows, organised by department and class.
 
-<sub>Django · PostgreSQL · LLM APIs</sub>
+<sub>`0.95` &nbsp; Django · OpenCV · face_recognition · NumPy</sub>
 
 </td>
 <td width="50%" valign="top">
 
 #### Virtual Hair Colour Try-On
 
-Segment the hair, keep the highlights, change the colour — and have it still look like hair rather than a paint bucket. Vision work where the bar is set by the human eye.
+Segment the hair, keep the highlights, change the colour — and have it still look like hair rather than a paint bucket. Vision work where the acceptance test is the human eye.
 
-<sub>Python · OpenCV · image segmentation</sub>
+<sub>`0.93` &nbsp; Python · OpenCV · image segmentation</sub>
 
 </td>
 </tr>
@@ -82,42 +82,48 @@ Segment the hair, keep the highlights, change the colour — and have it still l
 
 #### Multilingual E-Commerce Platform
 
-A storefront built the boring, durable way: catalogue, media, orders, and translations that hold up across languages — plus an admin the client can actually run without me.
+Catalogue, media, orders, and translations that hold up across languages — plus an admin the client can actually run without me.
 
-<sub>Django · PostgreSQL · i18n</sub>
+<sub>`0.92` &nbsp; Django · PostgreSQL · i18n</sub>
 
 </td>
 <td width="50%" valign="top">
 
 #### Offline Recipe Keeper
 
-A Flutter app that works on a train with no signal. Local storage, a clean interface, and nothing that phones home to be useful.
+A Flutter app that works on a train with no signal. Local storage, a clean interface, nothing that phones home to be useful.
 
-<sub>Flutter · Dart · local storage</sub>
+<sub>`0.90` &nbsp; Flutter · Dart · local storage</sub>
 
 </td>
 </tr>
 </table>
 
-<sub>Some commercial and client work is maintained privately. If something here is close to what you're building, ask me — I'm happy to walk you through it.</sub>
+<sub>Some commercial and client work is maintained privately. If something here is close to what you're building, ask — I'm happy to walk you through it.</sub>
 
 <br>
 
 <details>
-<summary><b>☕ &nbsp;what's actually in the mug</b></summary>
+<summary><b>▸ &nbsp;false positives</b></summary>
 
 <br>
 
-Nous-nous, when I can get it. I'm a long way from the café that makes it properly, so most nights it's whatever's closest — and it goes cold anyway, about twenty minutes into a bug.
+Things this profile will confidently misclassify:
 
-The illustration at the top of this page is hand-written SVG — every rain streak, every bulb on that string, the lamp's flicker, the cat's slow breathing. No image files, no animation library, about a thousand lines of geometry. It rains up there whether or not anyone is watching.
+`0.91` — **"Django developer."** True, but the interesting half of the job happens before a request ever reaches a view.
+
+`0.88` — **"AI guy."** Most of what I ship is plumbing. The model is usually the smallest file in the repo, and the part I spend least time on.
+
+`0.74` — **"just passing through."** Morocco to China was not a layover.
+
+The banner at the top is hand-written SVG — the bounding box, the scanline, the reticle, every tick on that ruler. No images, no libraries, no third-party widgets that break when someone else's free tier expires. It re-renders from one script, so the light and dark versions can't drift apart.
 
 </details>
 
 <br>
 
-### ✦ &nbsp;elsewhere
+### ▸ &nbsp;contact
 
-<a href="https://github.com/angorot89?tab=repositories"><b>My repositories →</b></a>
+<a href="https://github.com/angorot89?tab=repositories"><b>Repositories →</b></a>
 
-<sub>Learn fast. Build smart. Ship useful things. Open to ambitious products and difficult problems — the lamp's on.</sub>
+<sub>Open to ambitious products and difficult problems. Learn fast, build smart, ship useful things.</sub>
