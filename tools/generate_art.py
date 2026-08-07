@@ -7,12 +7,57 @@ Both theme variants come from one template so they can never drift apart.
 """
 
 import random
+import subprocess
+from datetime import datetime, timezone
 from pathlib import Path
 from string import Template
 from xml.sax.saxutils import escape
 
-OUT = Path(__file__).resolve().parent.parent / "assets"
+HERE = Path(__file__).resolve().parent
+OUT = HERE.parent / "assets"
 OUT.mkdir(parents=True, exist_ok=True)
+
+
+# ────────────────────────────────────────────────────────── telemetry ──
+# The HUD claims to be an instrument, so the readouts should not be props.
+# Everything below is derived from the repository itself — no API token and
+# no third-party service, which keeps the workflow to a single cron job.
+def _git(*args, default=""):
+    try:
+        return subprocess.run(
+            ["git", *args], cwd=HERE, capture_output=True, text=True, timeout=10
+        ).stdout.strip() or default
+    except Exception:
+        return default
+
+
+def telemetry():
+    """One honest status line: build counter, commit count, age, timestamp."""
+    counter = HERE / ".frame"
+    try:
+        n = int(counter.read_text().strip()) + 1
+    except Exception:
+        n = 1
+    counter.write_text(f"{n}\n")
+
+    commits = _git("rev-list", "--count", "HEAD", default="0")
+
+    first = _git("log", "--reverse", "--format=%cI", "--max-parents=0")
+    days = "0"
+    if first:
+        try:
+            born = datetime.fromisoformat(first)
+            days = str((datetime.now(timezone.utc) - born).days)
+        except ValueError:
+            pass
+
+    # Date only, no clock time: a value that changed every run would force the
+    # workflow to commit on every run, faking daily activity on the profile's
+    # contribution graph. Weekly granularity keeps the readout honest.
+    built = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    gap = "&#160;&#160;&#160;"
+    return (f"frame {n:05d}{gap}commits {commits}{gap}uptime {days}d"
+            f"{gap}built {built}")
 
 
 # ─────────────────────────────────────────────────────────── palettes ──
@@ -214,7 +259,7 @@ HERO = Template(
     <circle cx="862" cy="232" r="2.2" fill="$hot"/>
   </g>
 
-  <text class="tiny" x="$fx0" y="332" fill="$muted" opacity="0.75">x:40 y:44 &#160;&#160; frame 00417 &#160;&#160; 60 fps &#160;&#160; 1 person, 3 obj</text>
+  <text class="tiny" x="$fx0" y="332" fill="$muted" opacity="0.75">$telemetry</text>
 
   <rect width="1000" height="360" fill="url(#gVig)"/>
 </svg>
@@ -298,6 +343,8 @@ ALT = ("Stack — backend: Python, Django, DRF, PostgreSQL, MySQL, Node.js. "
 
 
 # ────────────────────────────────────────────────────────────── build ──
+TELEMETRY = telemetry()
+
 for pal in (DARK, LIGHT):
     rnd = random.Random(11)
     corners = "".join(
@@ -305,7 +352,7 @@ for pal in (DARK, LIGHT):
             [(FX0, FY0, 1, 1), (FX1, FY0, -1, 1), (FX0, FY1, 1, -1), (FX1, FY1, -1, -1)])
     )
     hero = HERO.substitute(
-        pal, fx0=FX0, fy0=FY0,
+        pal, fx0=FX0, fy0=FY0, telemetry=TELEMETRY,
         gridlines=grid_lines(),
         ticks=edge_ticks(),
         corners=corners,

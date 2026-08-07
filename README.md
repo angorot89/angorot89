@@ -49,6 +49,20 @@ Both ends are the same problem. Take a messy input — a blurred frame, a half-f
 <br>
 
 <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/sec-architecture-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/sec-architecture-light.svg">
+  <img alt="Architecture" src="./assets/sec-architecture-dark.svg" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/iso-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/iso-light.svg">
+  <img alt="Isometric architecture: clients (React, Flutter, templates) above a Django core (models, views, DRF), with vision (OpenCV, TensorFlow) and language-model (Claude, OpenAI) services either side, over PostgreSQL as the system of record." src="./assets/iso-dark.svg" width="100%">
+</picture>
+
+<br>
+
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/sec-detections-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/sec-detections-light.svg">
   <img alt="Detections — selected projects" src="./assets/sec-detections-dark.svg" width="100%">

@@ -1,0 +1,85 @@
+name: artwork
+
+# Regenerates the profile SVGs so the HUD's readouts stay true.
+#
+# Deliberately NOT hourly. A run that always produces a diff would commit on
+# every trigger and paint the contribution graph green with bot activity, which
+# would make the telemetry a prop again. The generators emit date-granular
+# values, so a weekly tick plus a run whenever the source actually changes is
+# enough to keep the numbers accurate without inventing work.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/**'
+      - '.github/workflows/artwork.yml'
+  schedule:
+    - cron: '0 6 * * 1'   # Mondays, 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: artwork
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # commit count and repo age need full history
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Render artwork
+        run: |
+          for script in tools/generate_*.py; do
+            echo "── $script"
+            python "$script"
+          done
+
+      - name: Verify every SVG is well-formed
+        run: |
+          python - <<'PY'
+          import sys, xml.dom.minidom
+          from pathlib import Path
+          bad = []
+          for f in sorted(Path("assets").glob("*.svg")):
+              try:
+                  xml.dom.minidom.parse(str(f))
+              except Exception as e:
+                  bad.append(f"{f}: {e}")
+          if bad:
+              print("\n".join(bad)); sys.exit(1)
+          print("all SVGs parse")
+          PY
+
+      - name: Check every asset the README references exists
+        run: |
+          python - <<'PY'
+          import re, sys
+          from pathlib import Path
+          refs = set(re.findall(r'\./assets/([A-Za-z0-9_-]+\.svg)', Path("README.md").read_text()))
+          missing = sorted(r for r in refs if not Path("assets", r).exists())
+          if missing:
+              print("MISSING:", ", ".join(missing)); sys.exit(1)
+          print(f"{len(refs)} referenced assets present")
+          PY
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets tools/.frame
+          if git diff --staged --quiet; then
+            echo "no change — nothing to commit"
+          else
+            git commit -m "Re-render profile artwork [skip ci]"
+            git push
+          fi
