@@ -231,7 +231,7 @@
     <circle cx="862" cy="232" r="2.2" fill="#C4008F"/>
   </g>
 
-  <text class="tiny" x="40" y="332" fill="#5A6B86" opacity="0.75">frame 00004&#160;&#160;&#160;commits 7&#160;&#160;&#160;uptime 3d&#160;&#160;&#160;built 2026-08-10</text>
+  <text class="tiny" x="40" y="332" fill="#5A6B86" opacity="0.75">frame 00005&#160;&#160;&#160;commits 8&#160;&#160;&#160;uptime 10d&#160;&#160;&#160;built 2026-08-17</text>
 
   <rect width="1000" height="360" fill="url(#gVig)"/>
 </svg>
